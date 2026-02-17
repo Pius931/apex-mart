@@ -1,11 +1,16 @@
-import { useState } from "react";
-
-import "./App.css";
+import Navbar from "./Components/NavBar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <>
-      <h1>Apex Mart</h1>
+      <Navbar />
+      <main>
+        <h1>Apex Mart</h1>
+        {/*Pages will render here later */}
+      </main>
+
+      <Footer />
     </>
   );
 }
