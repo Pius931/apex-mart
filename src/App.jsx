@@ -1,12 +1,13 @@
 import Navbar from "./Components/NavBar";
 import Footer from "./Components/Footer";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
       <Navbar />
       <main>
-        <h1>Apex Mart</h1>
+        <Home />
         {/*Pages will render here later */}
       </main>
 
