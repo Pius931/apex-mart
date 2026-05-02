@@ -18,4 +18,5 @@ export const getSingleProduct = async (id) => {
   }
 
   return response.json();
+  //testing
 };
